@@ -29,9 +29,9 @@ Sistem digital untuk mengelola proses peminjaman laptop di sekolah secara transp
 
 * ✅ Minggu 1: Observasi kebutuhan & wawancara pengguna (guru & siswa)  
 * ✅ Minggu 2: Analisis kebutuhan & desain sistem (role, fitur, workflow)  
-* ✅ Minggu 3: Implementasi kode utama (Streamlit, Excel, Groq AI)  
-* ⏳ Minggu 4: Testing, penambahan login, persetujuan, & presentasi akhir  
-* ⏳ Minggu 5: Deploy online & pembuatan APK (opsional)
+* ✅ Minggu 3: Implementasi kode utama (evaluasi peinjaman laptop,)  
+* ⏳ Minggu 4: Testing, persetujuan, & presentasi akhir  
+* ⏳ Minggu 5: Deploy 
 
 📁 **Teknologi yang Digunakan**
 - Python  
