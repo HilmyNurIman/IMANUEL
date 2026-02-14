@@ -4,7 +4,7 @@
 Sistem digital untuk mengelola proses peminjaman laptop di sekolah secara transparan, cepat, dan terkontrol.  
 
 
-👥 **Anggota Tim (Kelompok IMANUEL)**
+👥 **Anggota Tim (Kelompok IMANUEL)**  
 
 1. Hanif Faiz Alfarisy
    
