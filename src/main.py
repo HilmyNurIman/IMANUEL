@@ -6,6 +6,8 @@ import os
 from groq import Groq
 from datetime import datetime
 from time import sleep
+from data_handler import baca_data_excel, tampilkan_tabel, update_status_kembali, tambah_data_excel
+from ai_handler import handle_tanya_bebas
 # Import hanya fungsi yang benar-benar dipakai
 from data_handler import (
     baca_data_excel,
