@@ -9,7 +9,7 @@ Sistem digital untuk mengelola proses peminjaman laptop di sekolah secara transp
 1. Hanif Faiz Alfarisy
    
 
-2. Fadhil Ghozy El-Haq  
+2. Fadhil Ghazy El Haq  
    
 
 3. Hilmy Nur Iman
