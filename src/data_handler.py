@@ -52,7 +52,7 @@ def hapus_semua_data_excel():
     """Hapus semua data (kecuali header)"""
     wb = load_workbook(DATA_FILE)
     ws = wb.active
-    if ws.
+    if ws.max_row > 1:
         ws.delete_rows(2, ws.max_row - 1)
         wb.save(DATA_FILE)
 
