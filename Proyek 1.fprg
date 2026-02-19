@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fadhi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-04 02:33:04 PM"/>
+        <attribute name="created" value="ZmFkaGk7QUNFUi0zMjQ7MjAyNi0wMi0wNDswNzo1Mjo0NiBBTTsyMjU4"/>
+        <attribute name="edited" value="ZmFkaGk7QUNFUi0zMjQ7MjAyNi0wMi0wNDswMjozMzowNCBQTTsxOzIzNjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nama" type="String" array="False" size=""/>
+            <declare name="Kelas" type="String" array="False" size=""/>
+            <declare name="Tanggalpinjam" type="String" array="False" size=""/>
+            <declare name="TanggalKembali" type="String" array="False" size=""/>
+            <declare name="Keperluan" type="String" array="False" size=""/>
+            <declare name="PenanggungJawab" type="String" array="False" size=""/>
+            <output expression="&quot;=== Sistem Peminjaman Laptop Siswa ===&quot;" newline="True"/>
+            <output expression="&quot;Masukkan Kelas:&quot;" newline="True"/>
+            <input variable="kelas"/>
+            <output expression="&quot;Masukkan Nama Siswa:&quot;" newline="True"/>
+            <input variable="Nama"/>
+            <output expression="&quot;Masukkan Tanggal Pinjam:&quot;" newline="True"/>
+            <input variable="Tanggalpinjam"/>
+            <output expression="&quot;Masukkan Tanggal Kembali:&quot;" newline="True"/>
+            <input variable="TanggalKembali"/>
+            <output expression="&quot;Masukkan Keperluan Peminjaman:&quot;" newline="True"/>
+            <input variable="Keperluan"/>
+            <output expression="&quot;Masukkan Nama Penanggung Jawab:&quot;" newline="True"/>
+            <input variable="PenanggungJawab"/>
+            <output expression="&quot;=== DATA PEMINJAMAN ===&quot;" newline="True"/>
+            <output expression="&quot;Nama Siswa       : &quot; &amp; Nama" newline="True"/>
+            <output expression="&quot;Kelas            : &quot; &amp; Kelas" newline="True"/>
+            <output expression="&quot;Tanggal Pinjam   : &quot; &amp; TanggalPinjam" newline="True"/>
+            <output expression="&quot;Tanggal Kembali  : &quot; &amp; TanggalKembali" newline="True"/>
+            <output expression="&quot;Keperluan        : &quot; &amp; Keperluan" newline="True"/>
+            <output expression="&quot;Penanggung Jawab : &quot; &amp; PenanggungJawab" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
