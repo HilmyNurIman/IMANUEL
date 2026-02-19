@@ -5,7 +5,7 @@ Aplikasi konsol sederhana untuk mencatat peminjaman laptop sekolah dengan integr
 ## Kontributor
 - **Hanif** → Data management & Excel handler (`data_handler.py`)
 - **Iman** → UI, main loop, perintah tetap (`main.py`)
-- **Ghozy** → Integrasi AI, prompt engineering, tanya bebas (`ai_handler.py`)
+- **Ghazy** → Integrasi AI, prompt engineering, tanya bebas (`ai_handler.py`)
 
 ## Cara Install & Run
 1. Clone repo
