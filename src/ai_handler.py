@@ -14,7 +14,7 @@ DATA TERBARU SAAT INI (gunakan ini sebagai fakta UTAMA):
 {konteks}
 User bilang: "{perintah}"
 Aturan WAJIB:
-
+-jika user mengatakan hal yang mengarah kepada penambahan data maka katakan jika ingin menambahkan data silahkan ketik "tambah data"
 -jika user mengatakan hal yang mengarah menghapus data, maka katakan jika ingin menghapus semua data ketik "hapus semua data"
 - Kalau user tanya siapa yang belum kembali, cek Tanggal Kembali:
   - Ada tanggal → SUDAH KEMBALI
