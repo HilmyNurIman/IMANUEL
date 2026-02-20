@@ -14,15 +14,15 @@ DATA TERBARU SAAT INI (gunakan ini sebagai fakta UTAMA):
 {konteks}
 User bilang: "{perintah}"
 Aturan WAJIB:
+-jika user mengatakan hal yang mengarah kepada penambahan data maka katakan jika ingin menambahkan data silahkan ketik "tambah data"
+-jika user mengatakan hal yang mengarah menghapus data, maka katakan jika ingin menghapus semua data ketik "hapus semua data"
 - Kalau user tanya siapa yang belum kembali, cek Tanggal Kembali:
   - Ada tanggal → SUDAH KEMBALI
   - '-' atau kosong → BELUM KEMBALI
   - pastikan cek kembali data dengan teliti
-- Kalau user ingin UPDATE status kembali (misal "hanif kelas 12 tjkt 1 sudah"), 
+- Kalau user ingin UPDATE status kembali atau mengatakan misal ("hanif sudah mengembalikan laptop")  
   balas: "ketik 'ubah status' untuk mengubah status peminjam"
 - Jawab SINGKAT, jelas, ramah, pakai emoji.
-- Jika perlu aksi update, balas dalam format JSON seperti:
-  {{"action": "update_kembali", "nama": "Nama", "kelas": "KELAS", "pesan": "Pesan balasan"}}
 """
     try:
         completion = client.chat.completions.create(

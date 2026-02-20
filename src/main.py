@@ -69,7 +69,7 @@ while True:
         else:
             print("❌ Gagal menyimpan data\n")
         continue
-    elif perintah in ["lihat data", "tampilkan data", "tabel", "lihat tabel"]:
+    elif perintah in ["lihat data", "tampilkan data", "tabel", "lihat tabel", "perlihatkan data" ,"perlihat data"]:
         data = baca_data_excel()
         tampilkan_tabel(data)
         continue
