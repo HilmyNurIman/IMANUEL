@@ -14,9 +14,9 @@ from data_handler import (
     hapus_semua_data_excel,
     update_status_kembali,
     tampilkan_tabel,
-    tambah_data_excel          # baru ditambahkan di data_handler
+    tambah_data_excel         
 )
-from ai_handler import handle_tanya_bebas
+
 # Load environment
 load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
@@ -119,7 +119,7 @@ Jawab singkat dan jelas.
                 {"role": "user", "content": prompt}
             ],
             temperature=0.6,
-            max_tokens=500
+            max_tokens=400
         )
         print("\nIMANUEL 🤖:")
         print(completion.choices[0].message.content)
